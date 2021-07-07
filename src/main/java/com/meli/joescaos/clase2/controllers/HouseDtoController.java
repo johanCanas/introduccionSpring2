@@ -3,7 +3,6 @@ package com.meli.joescaos.clase2.controllers;
 import com.meli.joescaos.clase2.dto.request.HouseRequestDto;
 import com.meli.joescaos.clase2.dto.response.HouseResponseDto;
 import com.meli.joescaos.clase2.handlers.HouseHandler;
-import com.meli.joescaos.clase2.models.Room;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

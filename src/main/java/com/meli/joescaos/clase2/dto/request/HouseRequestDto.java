@@ -1,6 +1,5 @@
 package com.meli.joescaos.clase2.dto.request;
 
-import com.meli.joescaos.clase2.models.Room;
 import lombok.Getter;
 import org.springframework.validation.annotation.Validated;
 
@@ -20,7 +19,7 @@ public class HouseRequestDto {
 
     @NotEmpty(message = "Must have at least 1 room")
     @NotNull(message = "This list must not be empty")
-    private List<Room> rooms;
+    private List<RoomRequestDto> rooms;
 
 
 }
