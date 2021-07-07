@@ -3,6 +3,7 @@ package com.meli.joescaos.clase2.dto.request;
 import lombok.Getter;
 import org.springframework.validation.annotation.Validated;
 
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -19,6 +20,7 @@ public class HouseRequestDto {
 
     @NotEmpty(message = "Must have at least 1 room")
     @NotNull(message = "This list must not be empty")
+    @Valid
     private List<RoomRequestDto> rooms;
 
 
